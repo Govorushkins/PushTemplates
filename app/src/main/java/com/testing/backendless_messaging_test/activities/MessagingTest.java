@@ -97,7 +97,7 @@ public class MessagingTest extends Activity implements View.OnClickListener, Vie
 
   private void registerDevice()
   {
-    Backendless.Messaging.registerDevice(fcmRegistrationCallback);
+    Backendless.Messaging.registerDevice(Defaults.GCMSenderId, registrationCallback);
   }
 
   private void registerDevice(Date expiration)
@@ -113,7 +113,7 @@ public class MessagingTest extends Activity implements View.OnClickListener, Vie
   private void registerDevice( List<String> channels )
   {
     Date expirationDate = new Date( System.currentTimeMillis() + 60 * 60 * 1000 );
-    Backendless.Messaging.registerDevice( channels, fcmRegistrationCallback );
+    Backendless.Messaging.registerDevice( Defaults.GCMSenderId, channels, null, registrationCallback );
   }
 
 //  private void subscribeDevice()
@@ -225,10 +225,10 @@ public class MessagingTest extends Activity implements View.OnClickListener, Vie
     }
   };
 
-  private void unRegisterDevice(List<String> selectedChannels)
+  private void unRegisterDevice()
   {
-//    Backendless.Messaging.unregisterDevice( unRegistrationCallback );
-    Backendless.Messaging.unregisterDevice(selectedChannels);
+    Backendless.Messaging.unregisterDevice( unRegistrationCallback );
+
   }
 
   private void unSubscribeDevice( String channel )
@@ -270,7 +270,7 @@ public class MessagingTest extends Activity implements View.OnClickListener, Vie
         break;
 
       case R.id.unregister_btn:
-        unRegisterDevice(checkedChannels);
+        unRegisterDevice();
         break;
 
       case R.id.subscribe_btn:

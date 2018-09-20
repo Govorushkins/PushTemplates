@@ -33,19 +33,19 @@
             </intent-filter>
         </activity>
 
-        <!--<receiver-->
-            <!--android:name="com.backendless.push.BackendlessBroadcastReceiver"-->
-            <!--android:permission="com.google.android.c2dm.permission.SEND">-->
-            <!--<intent-filter>-->
-                <!--<action android:name="com.google.android.c2dm.intent.RECEIVE" />-->
-                <!--<action android:name="com.google.android.c2dm.intent.REGISTRATION" />-->
+        <receiver
+            android:name="com.backendless.push.BackendlessBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
 
-                <!--<category android:name="com.testing.backendless_messaging_test" />-->
-            <!--</intent-filter>-->
+                <category android:name="com.testing.backendless_messaging_test" />
+            </intent-filter>
 
-            <!--&lt;!&ndash; <meta-data android:name="GCMSenderId" android:value="@string/sender_id" /> &ndash;&gt;-->
+            <!-- <meta-data android:name="GCMSenderId" android:value="@string/sender_id" /> -->
 
-        <!--</receiver>-->
+        </receiver>
 
         <activity
             android:name=".activities.MessagingTest"
@@ -55,19 +55,19 @@
             </intent-filter>
         </activity>
 
-        <!--<service android:name="com.backendless.push.BackendlessPushService"-->
-            <!--android:permission="android.permission.BIND_JOB_SERVICE" />-->
+        <service android:name="com.backendless.push.BackendlessPushService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
 
-        <service
-            android:name="com.backendless.push.BackendlessPushService"
-            android:permission="android.permission.BIND_JOB_SERVICE">
-        </service>
+        <!--<service-->
+            <!--android:name="com.backendless.push.BackendlessPushService"-->
+            <!--android:permission="android.permission.BIND_JOB_SERVICE">-->
+        <!--</service>-->
 
-        <service android:name="com.backendless.push.BackendlessFCMService">
-            <intent-filter>
-                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-            </intent-filter>
-        </service>
+        <!--<service android:name="com.backendless.push.BackendlessFCMService">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="com.google.firebase.MESSAGING_EVENT" />-->
+            <!--</intent-filter>-->
+        <!--</service>-->
 
         <activity android:name=".activities.UserTest" />
         <activity android:name=".activities.FenceTest" />
