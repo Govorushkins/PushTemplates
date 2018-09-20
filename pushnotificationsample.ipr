@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="/opt/gradle-default" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+  <component name="InspectionProjectProfileManager">
+    <profile version="1.0">
+      <option name="myName" value="Project Default" />
+    </profile>
+    <version value="1.0" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="/opt/maven-default" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectDictionaryState">
+    <dictionary name="oleg" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Performance</id>
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>GSPGrailsGroovy</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GrailsGroovy</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>Maven</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Probable bugsCSS</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>RELAX NG</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+          <State>
+            <id>XSLT</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pushnotificationsample.iml" filepath="$PROJECT_DIR$/pushnotificationsample.iml" />
+    </modules>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8.0_152" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/classes" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.26064333" />
+    <property name="last_opened_file_path" value="/opt/java/default/bin/jvisualvm" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="libraryTable">
+    <library name="animated-vector-drawable-25.3.1">
+      <CLASSES>
+        <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/res" />
+        <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/Android-SDK/extras/android/m2repository/com/android/support/animated-vector-drawable/25.3.1/animated-vector-drawable-25.3.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="appcompat-v7-25.3.1">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar!/" />
+        <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/Android-SDK/extras/android/m2repository/com/android/support/appcompat-v7/25.3.1/appcompat-v7-25.3.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="backendless-4.0.0-beta4">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.backendless/backendless/4.0.0-beta4/e61c63e184ae1230706f40c8857dd105f91e0588/backendless-4.0.0-beta4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.backendless/backendless/4.0.0-beta4/dd36eab8a1939468ac29ec0a99bc77f858a34cf0/backendless-4.0.0-beta4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="backendless-4.0.3">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.backendless/backendless/4.0.3/fc8b7dbc967fc01f535390c77737dcbe8b820bfd/backendless-4.0.3.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.backendless/backendless/4.0.3/a898d2e165003c826f3daf608dac88cc0e09001d/backendless-4.0.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="firebase-analytics-11.0.4">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.android/build-cache/930871d1fdef128e9057a6424f79911b919f129f/output/jars/classes.jar!/" />
+        <root url="file://$USER_HOME$/.android/build-cache/930871d1fdef128e9057a6424f79911b919f129f/output/res" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="firebase-analytics-9.0.0">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.android/build-cache/6fb1cd0eff54db81f9681e661bdf6c140dbcc883/output/res" />
+        <root url="jar://$USER_HOME$/.android/build-cache/6fb1cd0eff54db81f9681e661bdf6c140dbcc883/output/jars/classes.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="firebase-analytics-impl-11.0.4">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.android/build-cache/12d522199cf1dbdb1ae2893ec6684a2cfa90de5c/output/res" />
+        <root url="jar://$USER_HOME$/.android/build-cache/12d522199cf1dbdb1ae2893ec6684a2cfa90de5c/output/jars/classes.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="firebase-analytics-impl-9.0.0">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.android/build-cache/35fd62a03b5e7aa120d88e8a6e151b5c97f44191/output/res" />
+        <root url="jar://$USER_HOME$/.android/build-cache/35fd62a03b5e7aa120d88e8a6e151b5c97f44191/output/jars/classes.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="firebase-common-11.0.4">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.android/build-cache/01f5f6dcc6d7eb99085c1adafea04fd112ee83cb/output/jars/classes.jar!/" />
+        <root url="file://$USER_HOME$/.android/build-cache/01f5f6dcc6d7eb99085c1adafea04fd112ee83cb/output/res" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="firebase-common-9.0.0">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.android/build-cache/59ac85274e7bda77f0eb92508681e8c4e3906bc2/output/res" />
+        <root url="jar://$USER_HOME$/.android/build-cache/59ac85274e7bda77f0eb92508681e8c4e3906bc2/output/jars/classes.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="firebase-core-11.0.4">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.android/build-cache/a86547b165ce7c36a36d20c0cc8db8745bdf2c66/output/res" />
+        <root url="jar://$USER_HOME$/.android/build-cache/a86547b165ce7c36a36d20c0cc8db8745bdf2c66/output/jars/classes.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="firebase-core-9.0.0">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.android/build-cache/14eaf0736271ec4a908ccd6948a35553bae34270/output/res" />
+        <root url="jar://$USER_HOME$/.android/build-cache/14eaf0736271ec4a908ccd6948a35553bae34270/output/jars/classes.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="firebase-iid-11.0.4">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.android/build-cache/7daad49e8f6ce6e33307039e1768e8f30df2e362/output/res" />
+        <root url="jar://$USER_HOME$/.android/build-cache/7daad49e8f6ce6e33307039e1768e8f30df2e362/output/jars/classes.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="firebase-iid-9.0.0">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.android/build-cache/c3f22f70a1c92d1c85268dcdfbe39be3c8b9f463/output/res" />
+        <root url="jar://$USER_HOME$/.android/build-cache/c3f22f70a1c92d1c85268dcdfbe39be3c8b9f463/output/jars/classes.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="okhttp-3.4.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/70fca5cd856d0cc740e43affeb6f661204fdb2cc/okhttp-3.4.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="okio-1.9.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/3aaaf83694e8c88e8c33c71b609f0ad506007a4a/okio-1.9.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="play-services-base-11.0.4">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.android/build-cache/bba654f77fb313dd42520a20f24687ac8658e8dc/output/res" />
+        <root url="jar://$USER_HOME$/.android/build-cache/bba654f77fb313dd42520a20f24687ac8658e8dc/output/jars/classes.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="play-services-base-9.0.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.android/build-cache/f36a636719e8117f04f227f5b4576c4b0b24ecf3/output/jars/classes.jar!/" />
+        <root url="file://$USER_HOME$/.android/build-cache/f36a636719e8117f04f227f5b4576c4b0b24ecf3/output/res" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="play-services-basement-11.0.4">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.android/build-cache/cc2de0230396294903b8d0cf79b7e0cd57196bab/output/jars/classes.jar!/" />
+        <root url="file://$USER_HOME$/.android/build-cache/cc2de0230396294903b8d0cf79b7e0cd57196bab/output/res" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="play-services-basement-9.0.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.android/build-cache/c228771993ae03895842d7935a253f24f8a4fdf0/output/jars/classes.jar!/" />
+        <root url="file://$USER_HOME$/.android/build-cache/c228771993ae03895842d7935a253f24f8a4fdf0/output/res" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="play-services-gcm-11.0.4">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.android/build-cache/603ec3a95a537886920ed067fe53ed72701d7f3d/output/jars/classes.jar!/" />
+        <root url="file://$USER_HOME$/.android/build-cache/603ec3a95a537886920ed067fe53ed72701d7f3d/output/res" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="play-services-iid-11.0.4">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.android/build-cache/a04481ec92f3223346030b77c77eecdf673cc706/output/res" />
+        <root url="jar://$USER_HOME$/.android/build-cache/a04481ec92f3223346030b77c77eecdf673cc706/output/jars/classes.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="play-services-tasks-11.0.4">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.android/build-cache/6187d95da313c57f364ba4606343cb732ee7a6e1/output/res" />
+        <root url="jar://$USER_HOME$/.android/build-cache/6187d95da313c57f364ba4606343cb732ee7a6e1/output/jars/classes.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="play-services-tasks-9.0.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.android/build-cache/e3cdee18b0fb08c5a82d93083282d6cc3a23bfb7/output/jars/classes.jar!/" />
+        <root url="file://$USER_HOME$/.android/build-cache/e3cdee18b0fb08c5a82d93083282d6cc3a23bfb7/output/res" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="support-annotations-25.3.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/Android-SDK/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/Android-SDK/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="support-compat-25.3.1">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar!/" />
+        <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/res" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/Android-SDK/extras/android/m2repository/com/android/support/support-compat/25.3.1/support-compat-25.3.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="support-core-ui-25.3.1">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar!/" />
+        <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/res" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/Android-SDK/extras/android/m2repository/com/android/support/support-core-ui/25.3.1/support-core-ui-25.3.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="support-core-utils-25.3.1">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar!/" />
+        <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/res" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/Android-SDK/extras/android/m2repository/com/android/support/support-core-utils/25.3.1/support-core-utils-25.3.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="support-fragment-25.3.1">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar!/" />
+        <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/res" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/Android-SDK/extras/android/m2repository/com/android/support/support-fragment/25.3.1/support-fragment-25.3.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="support-media-compat-25.3.1">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar!/" />
+        <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/res" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/Android-SDK/extras/android/m2repository/com/android/support/support-media-compat/25.3.1/support-media-compat-25.3.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="support-v4-25.3.1">
+      <CLASSES>
+        <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/res" />
+        <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="support-vector-drawable-25.3.1">
+      <CLASSES>
+        <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/res" />
+        <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/Android-SDK/extras/android/m2repository/com/android/support/support-vector-drawable/25.3.1/support-vector-drawable-25.3.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Python 3.5.2 (/usr/bin/python3) interpreter library 1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.26064333" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>Python 3.5.2 (/usr/bin/python3.5)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.26064333" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

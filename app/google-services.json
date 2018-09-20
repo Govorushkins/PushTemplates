@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "801246970546",
+    "firebase_url": "https://newproject-c284a.firebaseio.com",
+    "project_id": "newproject-c284a",
+    "storage_bucket": "newproject-c284a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801246970546:android:e1183c63d15fb1b0",
+        "android_client_info": {
+          "package_name": "com.mbaas.push"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "801246970546-q2cs2ao987unk66o8jhmrur8mr8qjgsd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKrLpggfApVX2xiAkex_Dyy6b-j2boDIs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801246970546:android:2daad19acfd5f261",
+        "android_client_info": {
+          "package_name": "com.testing.backendless_messaging_test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "801246970546-q2cs2ao987unk66o8jhmrur8mr8qjgsd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKrLpggfApVX2xiAkex_Dyy6b-j2boDIs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

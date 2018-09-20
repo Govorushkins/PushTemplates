@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:weightSum="1">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:gravity="center">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/available_channels"
+                android:id="@+id/textView" android:layout_gravity="center_horizontal"/>
+        <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/first_channel"
+                android:id="@+id/channel_1" android:layout_gravity="center_horizontal" android:checked="false"/>
+        <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/second_channel"
+                android:id="@+id/channel_2" android:layout_gravity="center_horizontal" android:checked="false"/>
+        <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/third_channel"
+                android:id="@+id/channel_3" android:layout_gravity="center_horizontal" android:checked="false"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/registration_section"
+                android:id="@+id/textView2" android:layout_gravity="center" android:layout_marginTop="10dp"/>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:gravity="center_horizontal">
+            <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/register_btn"
+                    android:id="@+id/register_btn" android:layout_weight="1" android:layout_marginLeft="25dp"
+                    android:layout_marginRight="5dp"/>
+            <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/unregister_btn"
+                    android:id="@+id/unregister_btn" android:layout_weight="1" android:layout_marginRight="25dp"
+                    android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/subscription_section"
+                android:id="@+id/textView3" android:layout_gravity="center" android:layout_marginTop="10dp"/>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal">
+            <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/subscribe_btn"
+                    android:id="@+id/subscribe_btn" android:layout_weight="1" android:layout_marginLeft="25dp"
+                    android:layout_marginRight="5dp"/>
+            <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/unsubscribe_btn"
+                    android:id="@+id/unsubscribe_btn" android:layout_weight="1" android:layout_marginRight="25dp"
+                    android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:weightSum="1">
+
+        <Button
+            android:id="@+id/show_status_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/get_status_btn" />
+
+        <Button
+            android:id="@+id/message_history"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Message History" />
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+        <Button style="?android:attr/buttonStyleSmall" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="@string/send_message_btn"
+                android:id="@+id/send_message_btn" android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+</LinearLayout>
+

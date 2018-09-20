@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Backendless Test</string>
+
+    <!--Navigation buttons-->
+    <string name="go_to_push_test_button">Push test</string>
+    <string name="go_to_fencing_test_button">Fence test</string>
+    <string name="go_to_main_menu_button">Main menu</string>
+
+    <!-- Messaging service test -->
+    <string name="available_channels">Channels</string>
+    <string name="first_channel">Custom ONE</string>
+    <string name="second_channel">Custom TWO</string>
+    <string name="third_channel">Custom THREE</string>
+    <string name="registration_section">Registration</string>
+    <string name="subscription_section">Subscription</string>
+    <string name="register_btn">Register</string>
+    <string name="unregister_btn">Unregister</string>
+    <string name="subscribe_btn">Subscribe</string>
+    <string name="unsubscribe_btn">Unsubscribe</string>
+    <string name="status_section">Status</string>
+    <string name="get_status_btn">Show current status</string>
+    <string name="send_message_btn">Send message</string>
+    <string name="messaging_section">Message</string>
+    <string name="sender_id">652990554361L</string>
+
+    <!-- User Service Test -->
+    <string name="login_button_text">Login</string>
+    <string name="logout_button_text">Logout</string>
+    <string name="register_button_text">Register</string>
+    <string name="hello_world">lalala</string>
+
+    <!--Fencing test-->
+    <string name="fence_test_activity_name">Fence test</string>
+    <string name="fence_name_field">Fence name:</string>
+    <string name="start_fence_monitoring_button">Start fence monitoring</string>
+    <string name="stop_fence_monitoring_button">Stop fence monitoring</string>
+    <string name="run_on_enter_button">Run onEnter</string>
+    <string name="run_on_stay_button">Run onStay</string>
+    <string name="run_on_exit_button">Run onExit</string>
+    <string name="get_points_button">Get points from fence</string>
+    <string name="use_custom_callback">Custom callback</string>
+    <string name="run_for_each_point">Run for each found point</string>
+    <string name="num_of_threads_message">Number of threads</string>
+    <string name="push_load_btn">Push load</string>
+
+    <!--Push test layout-->
+    <string name="delay_field_message">Delay:</string>
+    <string name="number_field_message">Number of notifications:</string>
+    <string name="run_test">Run test</string>
+    <string name="single_push">Send single push</string>
+</resources>

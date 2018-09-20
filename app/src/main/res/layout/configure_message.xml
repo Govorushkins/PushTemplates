@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Message: "
+                android:id="@+id/textView8"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/message_text"
+                android:layout_weight="1"/>
+    </LinearLayout>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Delivery options"
+            android:id="@+id/textView10" android:layout_gravity="center_horizontal"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_gravity="center_horizontal"
+				android:gravity="center_vertical|center_horizontal">
+			<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:text="PublishPolicyEnum"
+					android:id="@+id/textView9" android:layout_gravity="center_vertical"/>
+			<RadioGroup
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center_horizontal"
+					android:id="@+id/publishPolicyGroup">
+				<RadioButton
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="PUSH"
+						android:textAppearance="?android:attr/textAppearanceSmall"
+						android:id="@+id/push_btn" android:checked="true"/>
+				<RadioButton
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="PUBSUB"
+						android:textAppearance="?android:attr/textAppearanceSmall"
+						android:id="@+id/pubsub_btn" android:checked="false"/>
+				<RadioButton
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:textAppearance="?android:attr/textAppearanceSmall"
+						android:text="BOTH"
+						android:id="@+id/both_btn" android:checked="false"/>
+			</RadioGroup>
+		</LinearLayout>
+        <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView
+                        android:text="PublishAt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/PublishAt_textView"/>
+				<EditText
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:inputType="date"
+						android:ems="5"
+						android:id="@+id/PublishAt_date_editText"/>
+				<EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="time"
+                        android:ems="5"
+                        android:id="@+id/PublishAt_time_editText"/>
+            </TableRow>
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView
+                        android:text="RepeatEvery"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/RepeatEverytextView"/>
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberSigned"
+                        android:ems="10"
+                        android:id="@+id/RepeatEvery_editText"/>
+            </TableRow>
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView
+                        android:text="RepeatExpiresAt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/RepeatExpiresAt_textView"/>
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="date"
+                        android:ems="10"
+                        android:id="@+id/RepeatExpiresAt_editText"/>
+            </TableRow>
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </TableLayout>
+    </LinearLayout>
+    <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:stretchColumns="1">
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Publish options"
+                    android:id="@+id/textView11" android:layout_gravity="center_horizontal"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Subtopic: "
+                    android:id="@+id/textView12"
+                    android:paddingLeft="5dp"/>
+            <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:id="@+id/subtopic_field"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="City:"
+                    android:id="@+id/textView14"
+                    android:paddingLeft="5dp"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:id="@+id/city_field"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="State:"
+                    android:id="@+id/textView15"
+                    android:paddingLeft="5dp"/>
+            <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:id="@+id/state_field"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="PublisherId"
+                    android:id="@+id/textView16"
+                    android:paddingLeft="5dp"/>
+            <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:id="@+id/publisher_id_field"/>
+        </TableRow>
+    </TableLayout>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Client"
+            android:id="@+id/textView13" android:layout_gravity="center_horizontal"/>
+    <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android"
+            android:id="@+id/os_switcher"
+            android:layout_gravity="center_horizontal"
+            android:checked="false"
+            android:textColor="@color/green"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send"
+            android:id="@+id/send_message_btn"
+            android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

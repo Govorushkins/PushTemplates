@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+             android:stretchColumns="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Email/Login"
+                    android:layout_marginRight="5dp"
+                    android:id="@+id/textView18"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/email_login_edit_text"
+                    android:layout_span="2"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dp"
+                      android:textAppearance="?android:attr/textAppearanceMedium" android:text="Password"
+                      android:id="@+id/textView19"/>
+            <EditText android:layout_width="fill_parent" android:layout_height="wrap_content"
+                      android:id="@+id/password_edit_text" android:layout_span="2"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="StayLoggedIn"
+                    android:id="@+id/stay_logged_in_checkbox" android:checked="false"
+                    android:layout_span="3" android:layout_gravity="center_horizontal"/>
+        </TableRow>
+    <TableRow android:layout_height="fill_parent"
+            android:layout_width="fill_parent">
+        <Button android:layout_margin="5dp"
+                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                android:id="@+id/login_button"
+                android:layout_column="0"
+                android:text="@string/login_button_text">
+        </Button>
+
+        <Button android:layout_margin="5dp"
+                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                android:id="@+id/logout_button"
+                android:layout_column="1"
+                android:text="@string/logout_button_text">
+        </Button>
+
+        <Button android:layout_margin="5dp"
+                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                android:id="@+id/register_user_button"
+                android:layout_column="2"
+                android:text="@string/register_button_text">
+        </Button>
+
+    </TableRow>
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Check user login"
+                android:id="@+id/check_user_login_button" android:layout_column="1"/>
+    </TableRow>
+</TableLayout>
