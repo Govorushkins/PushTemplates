@@ -52,10 +52,10 @@ dependencies {
     implementation 'com.android.support:appcompat-v7:26.1.0'
 //    implementation 'com.google.firebase:firebase-core:16.0.3'
 //    implementation 'com.google.firebase:firebase-messaging:17.3.2'
-    implementation('com.backendless:backendless:5.0.3') {
-        exclude group: 'weborb'
-        exclude module: 'commons'
-    }
+//    implementation('com.backendless:backendless:5.0.3') {
+//        exclude group: 'weborb'
+//        exclude module: 'commons'
+//    }
     // https://mvnrepository.com/artifact/com.squareup.okhttp3/okhttp
     implementation 'com.squareup.okhttp3:okhttp:3.7.0'
 }

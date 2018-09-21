@@ -34,7 +34,7 @@
         </activity>
 
         <receiver
-            android:name="com.backendless.push.BackendlessBroadcastReceiver"
+            android:name=".receivers.PushReceiver"
             android:permission="com.google.android.c2dm.permission.SEND">
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
@@ -55,19 +55,8 @@
             </intent-filter>
         </activity>
 
-        <service android:name="com.backendless.push.BackendlessPushService"
+        <service android:name=".receivers.PushService"
             android:permission="android.permission.BIND_JOB_SERVICE" />
-
-        <!--<service-->
-            <!--android:name="com.backendless.push.BackendlessPushService"-->
-            <!--android:permission="android.permission.BIND_JOB_SERVICE">-->
-        <!--</service>-->
-
-        <!--<service android:name="com.backendless.push.BackendlessFCMService">-->
-            <!--<intent-filter>-->
-                <!--<action android:name="com.google.firebase.MESSAGING_EVENT" />-->
-            <!--</intent-filter>-->
-        <!--</service>-->
 
         <activity android:name=".activities.UserTest" />
         <activity android:name=".activities.FenceTest" />
