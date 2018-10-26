@@ -16,10 +16,10 @@ public class Defaults
   public static AppMode applicationMode;
 
   // production section
-  public static final String APPLICATION_ID = "2583DDF3-9D18-859D-FF08-10CB7E073B00";
-  public static final String ANDROID_API_KEY = "D03B9AF6-3B9F-716A-FFF3-0E1D5D6ABD00";
-  public static final String REST_API_KEY = "235AA146-2EF4-22E7-FF2C-313AA859C900";
-  public static final String SERVER_URL = "http://10.0.1.14:9000";
+  public static final String APPLICATION_ID = "5A37F7AE-192F-8036-FFED-32A46313B400";
+  public static final String ANDROID_API_KEY = "317382F0-36FD-33B2-FFC6-7B4C837AE400";
+  public static final String REST_API_KEY = "A969376B-1CBE-79D7-FF57-D4856E7A4E00";
+  public static final String SERVER_URL = "https://apitest.backendless.com";
 /*
   public static final String APPLICATION_ID = "67D0DFF2-C1BA-CE27-FFE5-ACFB006D0C00";
   public static final String ANDROID_API_KEY = "643B7C70-1C0F-B02C-FF9A-EE1F2BD11800";
