@@ -26,7 +26,7 @@ public class Defaults
   public static final String REST_API_KEY = "A7CC80B0-1D8A-B6E9-FF4E-EABF751C6F00";
   public static final String SERVER_URL = "https://api.backendless.com";
 */
-  public static final String GCMSenderId = "801246970546";
+  public static final String GCMSenderId = "652990554361";
 
   public static final String SELECTOR_TAG = "SELECTOR";
   public static final String SUBTOPIC_TAG = "SUBTOPIC";
